@@ -1,0 +1,197 @@
+body{
+	background: #fff !important;
+}
+.wu_top{
+	margin-top: 0px !important;
+	border-bottom:8px solid #edf2f5 ;
+}
+.wu_bianju{
+	padding: 0px !important;
+}
+.kuandu{
+	height: 56px !important;
+}
+.geren{
+	display: inline-block;
+	padding-top: 10px;
+	color: #1e4c7a;
+}
+.name_ren{
+	display: inline-block;
+	float: right;
+    padding-right: 20px;
+    padding-top: 12px;
+    color: #8a8888;
+}
+.li_xian{
+	margin-bottom: 0px !important; 
+}
+
+.name_ren img{
+	width: 50px;
+	height: 50px;
+	padding: 4px 0 0 0;
+}
+.shiming{
+	width: 60px;
+	height: 50px;
+	float: right;
+	padding-right: 33px;
+}
+.shiming img{
+	width: 100%;
+	padding: 7px 0 0 0;
+}
+.renzheng{
+	display: inline-block;
+    padding-top: 18px;
+}
+.name_name{
+	display: inline-block;
+	
+}
+.name_name span{
+    float: right;
+    padding: 17px 0px 0 6px;
+    color: #bbb;
+    }
+.box_bao{    
+    display: inline-block;
+    width: 165px;
+    float: right;
+}
+.wukong{
+	width: 100% !important;
+	margin: auto;
+}
+.dingdianyiyuan{
+	margin-bottom: 66px;
+}
+.dingdianyaodian{
+	margin-bottom: 64px !important;
+}
+.designated_search{
+	width: 90%;
+	height: 30px;
+	margin: 22px auto;
+	/*position: relative;*/
+	
+}
+.search_bottom{
+	margin-bottom: 0;
+}
+.search_inp{
+	width: 76%;
+	background-color: #FFFFFF;
+	overflow: hidden;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	float: left;
+}
+.sea_width{
+	width: 80% !important;
+}
+.magnifier{
+	height: 18px;
+	width: 18px;
+	float: left;
+	padding: 5px
+}
+.dengji{
+	font-size: 12px;
+	color:#005787;
+	display: block;
+	text-align: left;
+}
+.daxiao h4{
+	padding: 0px 0px 6px 0px;
+}
+.daxiao .p_1{
+	font-size: 12px;
+	color: #ccc;	
+}
+.daxiao .p_2{
+	font-size: 12px;
+	color: #ccc;	
+	display: inline-block;
+	width: 60px;
+}
+/*定点医院里的新闻*/
+.news-margin{
+	
+	margin: 0px;
+}
+.news-li-bg{
+	background-color: #FFFFFF;
+	padding-left: 10px;
+}
+.news-li-bg a{
+	width: 100%;
+	color: #1e4c7a;
+	display: block;
+}
+.news_ul_margin{
+	margin-top: 10px;
+	
+}
+.news_size{
+	font-size: 16px !important;
+}
+.news_list_bg{
+	background-color: #efeff4;
+}
+.news-li-bg{
+	background-color: #fff;;
+	padding-left: 10px;
+	border-bottom: 1px solid #a8a8a8;
+	margin: 0px 20px 0px 20px;
+}
+.news-yy{
+	background-color: #fff;;
+	padding-left: 10px;
+	margin: 0px 20px 0px 20px;
+}
+.news_avatar{
+	width: 100px !important;
+	height: 80px;
+	-webkit-border-radius: 0 !important;
+	float: left;
+}
+.mnews_top{
+	padding-top: 12px;
+}
+.news_avatar > span{
+	-webkit-border-radius: 0 !important;
+}
+.news_bottom{
+	margin-bottom: 40px;
+}
+.text_center{
+	text-align: left;
+}
+.ke{
+	padding-top:6px ;
+}
+.anniu{
+	width: 100%;
+    line-height: 25px;
+    height: 25px;
+    margin: auto;
+}
+.btn_anniu{
+	width: 140px;
+    height: 200px;
+    margin: auto;
+    position: relative;
+}
+.refresh{
+	background: #3291cf;
+	color: #fff;
+	border-radius:20px ;
+    margin-bottom: 12px;
+    position: absolute;
+    top: 40%;
+    height: 24px;
+    width: 140px;
+}
+

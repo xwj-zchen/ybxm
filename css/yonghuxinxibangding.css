@@ -1,0 +1,62 @@
+body{
+	background:#edf2f5 ;
+}
+/*用户绑定信息*/
+.user-number{
+	line-height: 44px;
+	color: #000000 !important;
+}
+.beijing{
+	background: #f5f8f9 !important;
+}
+.ui-btn-group button{
+	margin: 0px 15px !important;
+}
+
+.cancel{
+    font-size: 14px;
+    height: 24px;
+    display: block;
+    width: 100%;
+    border-radius: 21px;
+    position: relative;
+    padding: 0 11px;
+    min-width: 55px;
+    text-align: center;
+    background-color: #ed2848;
+    vertical-align: top;
+    color: #FFFFFF;
+    -webkit-box-sizing: border-box;
+    background-clip: padding-box;
+}
+.ui-list{
+	background:#f5f8f9 !important;
+}
+.user-submit{
+	background-color: #3291cf;
+}
+
+.user-fil{
+	padding-top: 32px;
+}
+
+.bg-color{
+	width: 90%;
+	margin: auto;
+	background-size: 100% 100%;
+	background-color: #f5f8f9;
+	height: 100%;
+	border-radius:8px;
+	box-shadow: 0px 8px 6px #e2eaee;
+}
+.approve_label{
+	width: 100px !important;
+}
+.btn_yzm{
+	color: #000000 !important;
+}
+.btn_bottom{
+	height: 100px;
+    border-radius: 10px;
+}
+

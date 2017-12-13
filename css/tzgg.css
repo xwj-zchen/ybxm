@@ -1,0 +1,274 @@
+@charset "utf-8";
+*{
+	margin: 0;
+    padding: 0;
+    line-height: 1.42857;
+    font-family: "microsoft yahei",helvetica;
+    font-size: 14px;
+}
+body{
+	background-color: #fff;
+}
+
+.mcontainer_bottom{
+	padding-bottom: 56px;
+}
+/*通知公告*/
+.mtzgg_top{
+	background-size: 100% 100% !important;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.mtzgg_top img{
+	width: 50%;
+}
+
+/*通知公告banner*/
+.mtzgg_banner{
+	width: 100%;
+	height: 150px;
+}
+.mtzgg_banner img{
+	width: 100%;
+	height: 100%;
+}
+
+/*通知公告bannerEND*/
+
+.mtzgg_main ul li{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	border-bottom: 2px solid #f5f4f4;
+}
+.mtzgg_content{
+	overflow: hidden;
+}
+.mtzgg_content img{
+	width: 20px;
+	float: left;
+	margin-top: 3px;
+}
+.mtzgg_wenzi{
+	/*float: left;*/
+	padding-left: 25px;
+	color: #535454;
+}
+.mtzgg_main ul li a{
+	display: block;
+}
+.mtzgg_main ul li a p{
+	text-align: right;
+	color: #b5b5b6;
+	font-size: 12px;
+	line-height: 25px;
+	padding-right: 15px;
+}
+
+.ybxw_search{
+	margin:10px 20px;
+	background-color: #a6daf0;
+	border-radius: 10px;
+}
+.ybxw_search input{
+	width: 70%;
+	border: none;
+	color: #fff;
+	height: 25px;
+	padding-left: 30px;
+	/*padding-right: 15px;*/
+	background-size: 20px 20px !important;
+}
+input::-webkit-input-placeholder{color: #fff}
+input::-ms-input-placeholder{color: #fff}
+input::-moz-placeholder{color: #fff}
+
+.ybxw_sousuobtn{
+	
+	width: 17%;
+	background-color: #3291cf;
+	/*display: inline-block;*/
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	height: 25px;
+	line-height: 25px;
+	float:right;
+}
+.ybxw_sousuobtn button{
+	width: 100%;
+	color: #fff;
+	border-radius: 10px;
+}
+
+
+
+
+
+.ybxw_list ul li a{
+	display: block;
+	color: #000;
+	padding:15px 20px 10px 20px;
+	overflow: hidden;
+}
+.ybxw_detail{
+	width: 30%;
+	/*height: 20%;*/
+}
+.ybxw_detail img{
+	width: 100%;
+	height: 100%;
+}
+.ybxw_fl{
+	float: left;
+}
+.ybxw_wenzi{
+	width: 66%;
+	padding-left: 10px;
+}
+.ybxw_wenzi span{
+	font-size: 12px;
+	color: #b5b5b6;
+	text-align: right;
+	display: block;
+}
+
+/*就诊人信息*/
+.mjzrxx_top{
+	text-align: center;
+	color: #6d8dad;
+	font-size: 18px;
+	line-height: 56px;
+	border-bottom: 12px solid #f4f8f9;
+}
+.mjzrxx_middle{
+	border-bottom: 12px solid #f4f8f9;
+}
+.yyxxqr_color{
+	line-height: 44px;
+	color: #a8a8a8 !important;
+}
+.yyxxqrtx_wz{
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+.yyxxqrtx_wz input{
+	color: #005787;
+	font-size: 14px;
+	padding-left: 80px !important;
+}
+.mjzrxx_bd{
+	width: 85%;
+	margin: 0 auto;
+}
+.mjzrxx_botom{
+	width: 85%;
+	margin: 0 auto;
+}
+.mjzrxx_wxts h3{
+	color: #005787;
+	font-size: 18px;
+	padding-top: 10px;
+}
+.mjzrxx_wxts p{
+	padding-top: 10px;
+	color: #a8a8a8;
+}
+.mjzrxx_botom button{
+	width: 100%;
+	background-color: #c1e3d5;
+	color: #005787;
+	font-size: 18px;
+	height: 35px;
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+/*通知公告内页*/
+.mtzggny{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	word-wrap: break-word;
+	table-layout: fixed;
+    word-break: break-all;
+}
+.mtzggny p{
+	line-height: 25px;
+}
+.mtzggny h3{
+	font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.mtzggny_xwly{
+	margin-bottom: 15px;
+}
+.mtzggny_xwly p{
+	font-size: 12px;
+	line-height: 20px;
+}
+.mtzggny_xwly p span{
+	padding-left: 20px;
+	font-size: 12px;
+}
+.mtzggny_xwly p i{
+	font-size: 12px;
+}
+.mtzggny_neirong img{
+	width: 100%;
+}
+.mtzggny_neirong p{
+	text-indent: 2em;	
+}
+
+
+/*业务查询*/
+.mywblcx{
+	height: 120px;
+	background-size: 100% 100% !important;
+}
+.mywblcx p{
+	width: 45%;
+	line-height: 40px;
+	background-color: #f4f4f4;
+	font-size: 18px;
+	text-align: center;
+	color: #3291cf;
+	float: left;
+	margin-left: 26%;
+	margin-top: 42px;
+	border-radius: 5px;
+}
+.mywblcx_list{
+	border-bottom: 1px solid #eee;
+}
+.mywblcx_list a{
+	padding: 10px 20px;
+	display: block;
+}
+.mywblcx_mc{
+	display: inline-block;
+}
+.mywblcx_mc h4{
+	color: #000000;
+}
+.mywblcx_mc p{
+	color: #868584;
+	/*line-height: 30px;*/
+}
+.mywblcx_result{
+	float: right;
+	line-height: 44px;
+}
+.mcoloryellow{
+	color: #ffab19;
+}
+.mcolorgreen{
+	color: #60a6f3;
+}
+.mcolorred{
+	color: #f00;
+}

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="format-detection" content="telephone=no">
+		<title>科室</title>
+		<link rel="stylesheet" type="" href="css/frozen.css">
+		<link rel="stylesheet" href="css/news.css">
+		<link rel="stylesheet" href="css/keshi.css">
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		
+	</head>
+	<body>
+		<section class="ui-container">	
+			<div class="home">
+				<ul class="ui-list  news-bg news_ul_margin">
+	            	<li class=" news-margin xianju">
+				    	<a href="#">
+				    		<div class="ui-avatar news_avatar tuchang">
+					            <span style="background-image:url(img/banner_01.png)"></span>
+					        </div>
+					        <div class="ui-list-info  daxiao">
+					            <h4 class="ui-nowrap">白城市中心医院</h4>
+					            <div class="tao">
+					            	<span class="ui-nowrap dengji yuankuang">三级</span> <p class="yuanjin">8.0km</p>
+					            </div>	
+					            <div class="bottom_di">
+					            	<p class="text_qu">白城市洮北区</p> 
+					            	<a href="tel:04363530025" ><img src="img/phone_logo.png" ></a>
+					            </div>	
+					        </div>
+				    	</a>	        
+				    </li>
+				    <!--医院简介开始-->
+				    <li class="news-li-bg news-margin xianju">
+					    <div class="latiao">
+							<div class="top_tiao">
+								<p class="text_yiyuanjianjie">医院简介</p>
+							</div>
+							<div class="text_content">
+								<p class="neirong" >是一所综合性三级甲等医院。是吉林医科大学的临床学院。同时是中国三级甲等医院。是一所综合性三级甲等医院。
+                           	</p>
+							</div>
+							<div class="yincangde" style="display: none;">
+								<p class="neirong" >是吉林医科大学的临床学院。同时是中国三级甲等医院。是一所综合性三级甲等医院。是吉林医科大学的临床学院。同时是中国三级甲等医院。
+								</p>
+							</div>
+							<div class="logo_v">
+								<img src="img/xiala.png">
+							</div>
+							<div class="logo_t" style="display: none;">
+								<img src="img/zhanshi_03.png">
+							</div>
+						</div>
+						
+					</li>
+					<!--医院简介结束-->
+					<!--选卡开始-->
+					<li class="news-li-bg news-margin xianju wubian">
+					<!--选卡头部-->	
+					<div class="box">
+						<ul class="btn">
+							<li class="bianse">科室</li>
+						</ul>
+					<!--选卡头部结束-->
+					
+						<ul class="boxList">
+							<li class="li1">
+								<!--选卡左侧-->
+								<ul class="keshi-left">
+									<li class="xi xhover">妇儿系</li>
+									<li class="xi">内科系</li>
+									<li class="xi">五官科系</li>
+									<li class="xi">影像科系</li>
+									<li class="xi">精神科</li>
+									<li class="xi">便民</li>
+									<li class="xi">急诊</li>
+								</ul>
+								<!--选卡左侧结束-->
+								<!--选卡右侧开始-->
+								<ul class="keshi-right">
+									<li class="ri1">
+										<ul>
+											<a href="#"><li class="ri2">门诊儿科</li></a>
+											<a href="#"><li class="ri2">门诊妇产科</li></a>
+										</ul>
+									</li>
+									<li class="ri1">
+										<ul>
+											<a href="#"><li class="ri2">门诊保健</li></a>
+											<a href="#"><li class="ri2">门诊风湿免疫科</li></a>
+											<a href="#"><li class="ri2">门诊呼吸内科</li></a>
+										</ul>
+									</li>
+									<li class="ri1">
+										<ul>
+											<a href="#"><li class="ri2">门诊骨科</li></a>
+											<a href="#"><li class="ri2">门诊泌尿外科</li></a>
+											<a href="#"><li class="ri2">门诊皮肤科</li></a>
+										</ul>
+									</li>
+									
+									<li class="ri1">
+										<ul>
+											<a href="#"><li class="ri2">门诊核医学科</li></a>
+											<a href="#"><li class="ri2">影像门诊</li></a>
+											<a href="#"><li class="ri2">影像门诊（放射）</li></a>
+											<a href="#"><li class="ri2">影像门诊（ct）</li></a>
+											<a href="#"><li class="ri2">影像门诊（超声）</li></a>
+											<a href="#"><li class="ri2">病理科</li></a>
+										</ul>
+									</li>
+									<li class="ri1">
+										<ul>
+											<a href="#"><li class="ri2">门诊精神科</li></a>	
+										</ul>
+									</li>
+									<li class="ri1">
+										<ul>
+											<a href="#"><li class="ri2">便民门诊</li></a>	
+										</ul>
+									</li>
+									<li class="ri1">
+										<ul>
+											<a href="#"><li class="ri2">急诊科（门诊）</li></a>	
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<!--选卡右侧结束-->
+							<!--选卡右侧专家栏目开始-->
+							
+
+						</ul>
+					</div>
+					</li>    
+				</ul>								
+			</div>
+			<!--选卡结束-->
+		</section>
+		
+		<!--医院简介jq-->
+		<script>
+		var jq = $.noConflict();
+		</script>
+		<script>
+                //var jq = $.noConflict();
+                jq('.logo_v').click(function(){
+                    jq('.yincangde').show();
+                    jq('.logo_v').hide();
+                    jq('.logo_t').show();
+                })
+                jq('.logo_t').click(function(){
+                    jq('.yincangde').hide();
+                    jq('.logo_v').show();
+                    jq('.logo_t').hide();
+                })
+            </script>
+            
+            
+         <!--选卡jq-->   
+            <script type="text/javascript">
+            
+			jq(function(){
+				jq('.boxList .li1').first().show();
+				
+				jq('.btn li').click(function(){
+					jq('.btn li').removeClass('bianse');
+					jq(this).addClass('bianse');
+					var index=$(this).index();
+					jq('.boxList .li1').eq(index).show().siblings('li').hide();		
+				})
+				
+				jq('.boxList .li1 .keshi-right .ri1').first().show();
+				jq('.boxList .li1 .keshi-left li').click(function(){
+					jq('.boxList .li1 .keshi-left li').removeClass('xhover');
+					jq(this).addClass('xhover');
+					var index=$(this).index();
+					jq('.boxList .li1 .keshi-right .ri1').eq(index).show().siblings('.ri1').hide();		
+				})
+				
+			})
+		</script>
+		<!--<script>
+			jq(function(){
+				jq(".tan").click(function(){
+					alert("0431");
+				})
+			})
+		</script>-->
+	</body>
+</html>

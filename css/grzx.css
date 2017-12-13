@@ -1,0 +1,166 @@
+@charset "utf-8";
+*{
+	margin: 0;
+    padding: 0;
+    line-height: 1.42857;
+    font-family: "microsoft yahei",helvetica;
+    font-size: 14px;
+}
+body{
+	background-color: #fff;
+}
+.mcontainer_bottom{
+	padding-bottom: 56px;
+}
+/*个人中心*/
+.mgrzx{
+	
+}
+.mgrzx_top{
+
+	border-bottom: 12px solid #f4f8f9;
+}
+.mgrzx_width{
+	width: 85%;
+	margin: 0 auto;
+}
+.mgrzz_top_two{
+	padding-bottom:10px;
+	overflow: hidden;
+}
+.mgrzz_top_two img{
+	width: 30%;
+	float: left;
+}
+.ybcxtx{
+	width: 25% !important;
+	padding-top: 10px;
+	padding-right: 5%;
+}
+
+.mgrzz_top_name{
+	float: left;
+	padding-top: 12%;
+	padding-right: 8%;
+}
+.mgrzz_top_name img{
+	width: 20px;
+	height: 20px;
+	padding-right: 5px;
+}
+.mgrzz_top_name em{
+	color: #fff;
+    background-color: #3291cf;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+.mgrzx_top_datils span{
+	color: #1e4c7a;
+	font-size: 16px;
+}
+.mgrzx_top_datils p{ 
+    width: 70%;
+    display: inline-block;
+    background-color: #efefee;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-left: 2px;
+    margin-bottom: 10px;
+}
+
+/*个人中心诊疗汇总 内页 医院*/
+.mmain{
+	padding-left: 20px;
+	padding-right: 20px;
+	overflow: hidden;
+}
+
+.zxyy{
+	padding-top: 52px;
+}
+
+.zxyy h4{
+	background-size: 20px !important;
+	padding-left: 30px;
+	color: #1e4c7a;
+	font-size: 16px;
+}
+.zxyy p{
+	color: #b5b5b6;
+	font-size: 14px;
+	text-indent: 2em;
+	margin-top: 23px;
+	margin-bottom: 23px;
+}
+.zxyypt img{
+	width: 100%;
+}
+.mzxyy_details{
+	padding-bottom: 65px;
+	color: #b5b5b6;
+	font-size: 14px;
+}
+
+.mzxyy_details ul li{
+	line-height: 30px;
+}
+.mzxyy_details_width{
+	width: 49%;
+	display: inline-block;
+}
+.mgrzx_middle {
+	padding-top: 20px;
+}
+.mgrzx_middle p{
+	line-height: 44px;
+	font-size: 16px;
+	color: #1e4c7a;
+}
+.mgrzx_middle p img{
+	width: 20px;
+	padding-right: 10px;
+}
+.mgrzx_middle_list{
+	
+}
+.mgrzx_middle_list li{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.mgrzx_middle_list li a{
+	width: 100%;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	line-height: 30px;
+	color: #b5b5b6;
+	display: block;
+}
+
+
+
+
+/*个人中心内页*/
+
+
+/*医保查询*/
+.mybcx_list{
+	overflow: hidden;
+}
+.mybcx_list li{
+	width: 50%;
+	float: left;
+	
+}
+.mybcx_list li a{
+	display: block;
+	color: #1e4c7a;
+	line-height: 35px;
+	text-align: center;
+	
+}
+.mybcx_list li a img{
+	width: 20px;
+	height: 20px;
+	padding-right: 15px;
+}

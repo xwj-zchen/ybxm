@@ -1,0 +1,265 @@
+@charset "utf-8";
+*{
+	margin: 0;
+    padding: 0;
+    line-height: 1.42857;
+    font-family: "microsoft yahei",helvetica;
+    font-size: 14px;
+}
+
+body{
+	background-color: #efeff4;
+}
+
+.home{
+	background-color: #FFFFFF;
+}
+
+.news-margin{
+	margin-bottom:3px;
+}
+
+.news-li-bg{
+	background-color: #FFFFFF;
+	margin-left: 0 !important;
+	padding-left: 10px;
+}
+
+.news-li-bg a{
+	width: 100%;
+	color: #000000;
+	display: block;
+}
+
+.news-bg{
+	background-color: #efeff4 !important;
+}
+
+.news_ul_margin{
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+.news_size{
+	font-size: 16px !important;
+}
+.news_list_bg{
+	background-color: #efeff4;
+}
+
+.news-li-bg{
+	background-color: #fff;;
+	margin-left: 0 !important;
+	padding-left: 10px;
+}
+
+.news_avatar{
+	width: 80px !important;
+	height: 80px;
+	-webkit-border-radius: 0 !important;
+	float: left;
+}
+.mnews_top{
+	padding-top: 20px;
+}
+.news_avatar > span{
+	-webkit-border-radius: 0 !important;
+}
+.news_bottom{
+	margin-bottom: 40px;
+}
+/*轮播*/
+.news_banner{
+	width: 300px;
+	height: 141px;
+	overflow: hidden;
+}
+.news_banner ul{
+	width: 1332px;
+	overflow: hidden;
+}
+.news_banner ul>li{
+	width: 300px;
+	height: 141px;
+	float: left;
+}
+.news_banner ul li img{
+	width: 300px;
+	height: 141px;
+}
+
+/*定点医院*/
+
+.designated_search{
+	width: 90%;
+	height: 30px;
+	margin: 22px auto;
+	/*position: relative;*/
+	
+}
+.search_bottom{
+	margin-bottom: 0;
+}
+.search_inp{
+	width: 76%;
+	background-color: #FFFFFF;
+	overflow: hidden;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	float: left;
+}
+.sea_width{
+	width: 80% !important;
+}
+.magnifier{
+	height: 18px;
+	width: 18px;
+	float: left;
+	padding: 5px
+}
+
+
+
+.sea_input{
+	height: 26px;
+	float: left;
+	border: none;
+	width: 190px;
+}
+
+.btn_sousuo{
+	width: 18%;
+	height: 28px;
+	line-height: 28px;
+	background-color: #004e9f !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.5, #004e9f), to(#004e9f));
+	border-top-left-radius: 0 !important;
+	border-bottom-left-radius: 0!important;
+	border: none !important;
+	color: #FFFFFF !important;
+	
+}
+
+.tishi{
+	font-size: 12px;
+	color: #3f4646;
+	padding: 0px 0px 0px 20px;
+	display: inline;	
+	
+}
+
+.ydjzsq_btn{
+	width: 24% !important;
+}
+
+/*搜索点击弹出*/
+/*#sousuo_city{
+	display: none;
+}
+
+
+.sousuo_city{
+	width: 90%;
+	margin: 0 auto;
+    background: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #CCCCCC;
+    overflow: hidden;
+}
+
+.sousuo_left{
+	min-width: 93%;
+	float: left;
+}
+
+.sousuo_left a{
+	width: 17%;
+	line-height: 23px;
+	display: inline-block;
+	color: #000;
+	text-align: center;
+}
+.sousuo_right{
+	height: 20px;
+	float: right;
+}
+
+.sousuo_right img{
+	width: 20px;
+	height: 20px;
+	margin-top: 2px;
+}*/
+
+
+/*选项卡样式*/
+.ddyy_city{
+	width: 80%;
+	float: right;
+	margin: 0px 14px 0px 0px;
+}
+.ddyy_city li{
+	/*float: right;*/
+	min-width: 45px !important;
+	background-color: #efeff4;
+}
+.xuweijie_sousuo{
+	display: inline;
+
+	width: 100%;
+}
+.xuweijie_sousuo img{
+	width: 24px;
+	height: 24px;
+		position: absolute;
+	top: 12px;
+	left: 12px;
+	
+}
+
+/*药品目录*/
+.ypml_search{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.ypml_search{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+/*定点医院预约挂号*/
+.dengji{
+	font-size: 12px;
+	color:#5bb2ff;
+	
+}
+.daxiao h4{
+	padding: 0px 0px 2px 0px;
+}
+.daxiao .p_1{
+	font-size: 12px;
+	color: #ccc;
+	/*padding: 2px 0px 2px 0px;*/
+	display: inline-block;
+}
+.daxiao .p_2{
+	font-size: 12px;
+	color: #ccc;
+	/*padding: 0 0 0 36%;*/
+	display: inline-block;
+	width: 60px;
+}
+.tuchang{
+	
+	width:100px !important;
+	
+}
+.xianjianju{
+	margin-bottom: 1px;
+}
+.ke{
+	padding: 2px 0 0 0px;
+}
+.ke .p_2{
+	float: right;
+}

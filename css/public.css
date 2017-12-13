@@ -1,0 +1,29 @@
+@charset "utf-8";
+*{
+	margin: 0;
+    padding: 0;
+    line-height: 1.42857;
+    font-family: "microsoft yahei",helvetica;
+    font-size: 14px;   
+}
+
+.foot_neirong img{
+	padding-top:5px ;
+	width: 26px;
+	height: 26px;
+}
+.foot_a li a{
+	display: block !important; 
+}
+.ui-tiled{
+	background: #fff;
+}
+.ui-tiled i{
+	color: #1e4c7a !important;
+}
+a{
+	color:#fff;
+}
+.bottom_foot {
+    border-top: 4px solid #edf2f5 !important;
+}

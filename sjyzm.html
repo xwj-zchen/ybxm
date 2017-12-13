@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="format-detection" content="telephone=no">
+        <title>手机认证</title>
+        <link rel="stylesheet" type="text/css" href="css/frozen.css">
+        <link rel="stylesheet" type="text/css" href="css/sjrz.css" />
+        <link rel="stylesheet" type="text/css" href="css/public.css" />
+    </head>
+    <body>
+		<!--<section class="ui-container">-->
+			<div class="mcontainer_bottom">
+				<div class="msjrz_width">
+			    	<h3>手机认证</h3>
+			    	<div class="text_dingbu">
+						<p>我们给您的手机1396188267发送了一条短信，请输入短信中的验证码:</p>
+					</div>		    
+					<div class="ui-form">
+						<form action="#">		
+							<div class="ui-form-item ui-form-item-l msjyzm_item">
+					            <label class="ui-border-r qu_lin">
+					            	中国 +86
+					            </label>
+					            <input type="text" class="shan"  placeholder="请输入手机号码" maxlength="11">
+					            <a href="#" class="ui-icon-close shanchu" >
+					            </a>
+					        </div>
+					        <div class="ui-form-item ui-form-item-r msjyzm_item">
+					            <input type="text" class="sh" placeholder="请输入验证码" >
+					            <!-- 若按钮不可点击则添加 disabled 类 -->
+					            <button type="button" class="ui-border-l msjyzm_cxfs">重新发送</button>
+					            <a href="#" class="ui-icon-close shanchu"></a>
+					        </div>
+					        
+						</form>
+					</div>
+					<div class="msjrz_btn">
+						<button>完成</button>
+					</div>
+				</div>
+			</div>
+			
+		<!--</section>-->
+		<footer class="ui-footer ui-footer-stable ui-border-t bottom_foot">
+		    <ul class="ui-tiled footer_a">
+		        <li><a href="#"><div class="foot_neirong"><img src="img/shouye.png"></div><i>首页</i></a></li>
+		        <li><a href="#"><div class="foot_neirong"><img src="img/guanyuwomen.png"></div><i>关于我们</i></a></li>
+		        <li><a href="#"><div class="foot_neirong"><img src="img/gerenzhongxin.png"></div><i>个人中心</i></a></li>
+		    </ul>
+		</footer>
+		
+		<script src="js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$(".shanchu").click(function(){					
+					$(this).hide().closest('div').find('input').val('').focus();					
+				});
+				$('input').on('input',function(){
+					$(this).closest('div').find('a').show();			
+				});
+				$(".ydzjsq_bg").click(function(){
+					if($(".sh").val()==""){alert("请输入验证码")};
+					if($(".shan").val()==""){alert("请输入手机号")};	
+				});
+			});
+		</script>
+    </body>
+</html>

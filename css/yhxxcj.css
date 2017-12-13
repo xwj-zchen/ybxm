@@ -1,0 +1,64 @@
+body{
+	background: #f4f4f4;
+}
+.all_body{
+	width: 100%;
+}
+.map_1{
+	width: 100%;
+}
+.map_1 img{
+	width: 100%;
+	height: 210px;
+}
+.meta_nr{
+	background: #4287ff;
+	width: 100%;
+	height:80px;
+}
+
+.dz_top p{
+	font-size: 16px;
+	color: #fff;
+	padding: 15px 0px 0px 15px;
+}
+.dz_bottom{
+	margin:10px 0px 0px 15px;
+}
+.dz_bottom img{
+	width: 15px;
+	
+}
+.dz_bottom p{
+	display: inline-block;
+	font-size: 14px;
+	color: #FFF;
+	
+}
+.weidu,.jingdu,.shengfen{
+	margin-top:5px ;
+	background: #fff;
+	height: 40px;
+	display: flex;
+	/*flex-direction: column-reverse;/*/
+}
+.weidu img, .jingdu img, .shengfen img {
+	width: 20px;
+	height: 20px;
+	padding: 10px 0px 0px 10px;
+}
+.weidu p, .jingdu p, .shengfen p{
+	font-size: 14px;	
+	display: inline-block;
+	padding: 10px 0 0 8px;
+	width: 32%;
+}
+.weidu span, .jingdu span, .shengfen span{
+	display: flex;
+    flex-direction: row-reverse;
+    width: 76%;
+    align-items: center;
+    color: #ccc;
+    padding-right: 20px;
+   
+}

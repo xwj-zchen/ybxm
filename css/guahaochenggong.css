@@ -1,0 +1,52 @@
+body{
+	background: #fff;
+}
+.body_meta{
+	width: 100%;
+	height: auto;
+}
+.meta{
+	width: 80%;
+	margin: auto;
+	padding-top:40% ;
+	color: #005787;
+	/*font-weight: 300;*/
+}
+.picture{
+	width: 25%;
+	margin: auto;
+}
+.picture img{
+	width: 100%;
+	margin: auto;
+}
+.picture p{
+	text-align:center;
+}
+.text_guahao{
+	margin:10px 0px;
+}
+.text_guahao p{
+	width: 72%;
+	margin: auto;
+	text-align:center;
+}
+.button_fanhui{
+	width:100% ;
+	position: relative;
+	height: 200px;
+	margin-top: 40px;
+}
+.button_style{
+	width: 50%;
+	background: #fff;
+	border-radius: 2px;
+	box-shadow: 4px 4px 4px #d4ecf4;
+	padding: 10px;
+	margin: auto;
+	position: absolute;
+	left: 24%;
+	border: 1px solid #d4ecf4;
+	color: #005787;
+	
+}

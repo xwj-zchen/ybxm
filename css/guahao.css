@@ -1,0 +1,340 @@
+body{
+	background: #fff;
+}
+
+.banner_yiyuan img{
+	width: 100%;
+}
+.select{
+    width: 100%;
+    margin: 0 auto;
+}
+.btn{
+	height: 40px;  
+    padding-top: 15px;
+}
+.btn li{
+	padding-top: 10px;
+	height: 40px;
+	width: 24%;
+    float: left;  
+    cursor: pointer;
+    background:#eeefef;
+    box-sizing: border-box;
+    margin: 0px 0.3% 0px 0.6%;
+    color:  #a8a8a8;
+}
+.neirong{
+	width: 100%;
+	
+}
+.neirong .juti{
+	width: 90%;
+	margin: auto;
+   
+}
+.btnyangshi_1
+{
+	padding-top: 10px;
+	height: 40px;
+	width: 24%;
+    float: left;  
+    cursor: pointer;
+    background:#eeefef;
+    box-sizing: border-box;
+    margin: 0px 0.3% 0px 0.6%;
+    color:  #a8a8a8;
+}
+.btnyangshi_2{
+	padding-top: 10px;
+	height: 40px;
+	width: 24%;
+    float: left; 
+	background: #fff !important;
+	box-shadow: 2px 2px 2px #d3ecf3;
+	border-radius:4px 4px 10px #d3ecf3 !important;
+	-moz-border-radius:4px 4px 10px #d3ecf3 !important;
+	-webkit-border-radius:4px 4px 10px #d3ecf3 !important;	
+	box-sizing: border-box;
+	border: 1px solid #d3ecf3;
+    margin: 0px 0.3% 0px 0.6%;
+    color:  #005787 !important;
+}
+.yibaoguanli{
+	width: 100%;
+	float: left;
+    margin: 20px 0 45px 0px;
+}
+.main_left{
+	width: 50%;
+	float: left;
+	margin: 0px 0px 30px 0px;
+}
+.main_left img{
+	width: 35px;
+	float: left;
+	
+}
+.main_left p{
+	float: left;
+	margin: 6px 0 0 20px;
+	color: #005787;
+}
+.yibaoguanli li:nth-child(odd){
+	width: 100%;
+}
+.yibaoguanli li:nth-child(even){
+	width: 49%;
+}
+
+.wukong{
+	width: 100% !important;
+	margin: auto;
+}
+.dingdianyiyuan{
+	margin-bottom: 66px;
+}
+.dingdianyaodian{
+	margin-bottom: 64px !important;
+}
+.designated_search{
+	width: 90%;
+	height: 30px;
+	margin: 22px auto;
+	/*position: relative;*/
+	
+}
+.search_bottom{
+	margin-bottom: 0;
+}
+.search_inp{
+	width: 76%;
+	background-color: #FFFFFF;
+	overflow: hidden;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	float: left;
+}
+.sea_width{
+	width: 80% !important;
+}
+.magnifier{
+	height: 18px;
+	width: 18px;
+	float: left;
+	padding: 5px
+}
+
+
+
+.sea_input{
+	height: 26px;
+	float: left;
+	border: none;
+	width: 190px;
+}
+
+.btn_sousuo{
+	width: 18%;
+	height: 28px;
+	line-height: 28px;
+	background-color: #004e9f !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.5, #004e9f), to(#004e9f));
+	border-top-left-radius: 0 !important;
+	border-bottom-left-radius: 0!important;
+	border: none !important;
+	color: #FFFFFF !important;
+	
+}
+
+.tishi{
+	font-size: 12px;
+	color: #3f4646;
+	padding: 0px 0px 0px 20px;
+	display: inline;	
+	
+}
+
+.ydjzsq_btn{
+	width: 24% !important;
+}
+
+
+
+
+
+/*定点医院预约挂号*/
+.dengji{
+	font-size: 12px;
+	color:#5bb2ff;
+	
+}
+.daxiao h4{
+	padding: 0px 0px 2px 0px;
+}
+.daxiao .p_1{
+	font-size: 12px;
+	color: #ccc;
+	/*padding: 2px 0px 2px 0px;*/
+	
+}
+.daxiao .p_2{
+	font-size: 12px;
+	color: #ccc;
+	/*padding: 0 0 0 36%;*/
+	display: inline-block;
+	width: 60px;
+}
+.tuchang{
+	
+	width:100px !important;
+	
+}
+.xianjianju{
+	margin-bottom: 1px;
+}
+.ke{
+	padding: 2px 0 0 0px;
+}
+.ke .p_2{
+	float: right;
+}
+.banner_yiyuan{
+}
+.banner_yiyuan img{
+	width: 100%;
+}
+.tong{
+	margin-top: 16px;
+	height: 30px;
+	background: #fff;
+	border-bottom:8px solid #edf2f5;
+	width: 100%;
+}
+.tongzhi{
+	height: 30px;
+	background: #fff;
+	border-bottom:1px solid #eeeeee;
+	width: 100%;
+}
+
+.gonggao{
+	width: 140px;
+}
+#gundong{
+	overflow:hidden;
+	width:750;
+}
+.demopage img{
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+}
+.icon_new{
+	display:inline-block;
+	background: url(../img/new_logo2.png) no-repeat;
+	width: 30px;
+	height: 33px;
+}
+.gonggao .icon_1{
+	display:inline-block;
+	background: url(../img/tongzhi_logo.png) no-repeat;
+	width: 15px;
+	height: 13px;
+    
+}
+.gonggao .icon_2{
+	display:inline-block;
+	background: url(../img/tuijiankeshi_logo.png) no-repeat;
+	width: 15px;
+	height: 15px;
+    
+}
+.gonggao .icon_3{
+	display:inline-block;
+	background: url(../img/jibing_1.png) no-repeat;
+	width: 15px;
+	height: 15px;
+    
+}
+.gonggao p{
+	width: 76px;
+    line-height: 30px;
+    height: 25px;
+    display: inline-block;
+    color: #005787;
+}
+#marquePic1,#marquePic2{
+	background:#fff ;
+	border-bottom: 8px solid #edf2f5;
+}
+pre{
+	height: 28px;
+    padding-top: 12px;
+    color: #bbb;
+}
+.kongxi{
+	margin-top:6px ;
+	
+}
+.kongxii{
+	margin-top:6px ;
+	
+}
+
+
+/*推荐科室开始*/
+.box_zhongjian{
+	margin-bottom:6px ;
+}
+.box_tuijian{
+	background: #FFF;
+	padding: 8px 0px 0px 0px;	
+}
+.ks{	
+	font-size: 12px;
+    color: #878484;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.kuang_ul{
+	margin: auto;
+	display: inline-block;
+}
+.kuang_li{
+	float: left;
+    width: 60px;
+    font-size: 14px;
+    margin: 5px 4px;
+    padding: 2px 5px 2px 5px;
+    line-height: 22px;
+    border: 1px solid #bfbfbf;
+    border-radius: 4px;
+    background: #fff;
+    color: #000;
+    text-align: center;
+}
+/*疾病结束*/
+.zhongxinyiyuan{
+	width: 100%;
+	position: fixed;
+    bottom: 65px;
+}
+.zhongxinyiyuan img{
+	width: 10px;
+	display: inline-block;
+}
+.zhongxinyiyuan p{
+	display: inline-block;
+	font-size: 10px;
+	color: #005787;
+}
+
+
+
+
+
+/*底部top线*/
+.bottom_foot{
+	border-top: 10px solid #edf2f5 !important;
+	}
+

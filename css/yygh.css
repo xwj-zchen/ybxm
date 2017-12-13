@@ -1,0 +1,394 @@
+@charset "utf-8";
+*{
+	margin: 0;
+    padding: 0;
+    line-height: 1.42857;
+    font-family: "microsoft yahei",helvetica;
+    font-size: 14px;
+}
+html, body, section{
+	height: 100%;
+}
+body{
+	background-color: #f3f3f3;
+}
+
+.fl{
+	float: left;
+}
+
+.mm_bg{
+	background-color: #fff;
+}
+
+
+.yyxxxr_top{
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.yyxxqr_color{
+	line-height: 44px;
+	color: #C9C9C9;
+}
+.wxts{
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #777;
+}
+.wxts h3{
+	font-size: 12px !important;
+	padding: 0 !important;
+}
+.wxts div{
+	font-size: 12px;
+	line-height: 25px;;
+}
+.yygh_btn{
+	width: 100%;
+    -webkit-box-sizing: border-box;
+    padding: 25px 15px 15px;
+}
+.yyxxqrtx_wz input{
+	font-size: 14px;
+}
+.yyxxqrtx_wz select{
+	font-size: 14px;
+}
+/*儿科门诊*/
+.ekmz_tab{
+	height: auto;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.ekmz_tab li{
+	min-width: auto !important;
+	height: auto !important;
+	line-height: normal !important;
+	border: 1px solid #f5f5f5;
+	font-size: 12px;
+	margin-left: 3px;
+	margin-right: 3px;
+	padding-top: 5px;
+	padding-bottom: 6px;
+	border-radius: 5px;
+	
+}
+
+.ekmz_tab li.current {
+    color: #fff;
+    background-color: #3e8bf0;
+    border-bottom: none !important;
+}
+
+.ekmz_tab li p{
+	font-size: 12px;
+}
+
+@media (max-width: 320px)
+	.ekmz_li {
+	    padding-left: 10px !important;
+}
+.ekmz_li{
+	margin-left: 0 !important;
+	padding-left: 10px !important;
+}
+.ekmz_a{
+	width: 100%;
+	display: block;
+}
+.ekmz_dw{
+	position: relative;
+}
+
+.ekmz_yy{
+	display: inline-block;
+	padding: 5px 10px;
+	border-radius: 5px;
+	background-color: #3e8bf0;
+	color: #fff;
+	position: absolute;
+	top: 25%;
+	right: 10px;
+	font-size: 12px;
+}
+.ekmz_hb{
+	color: #000;
+	font-size: 14px !important;
+}
+.ekmz_hb span{
+	color: #777;
+	font-size: 12px;
+	padding-left: 15px;
+}
+.ekmz_zt{
+	font-size: 12px !important;
+	line-height: 30px;
+}
+.ekmz_zt em, i, span{
+	font-size: 12px !important;
+}
+.ekmz_zt em, span{
+	padding-left: 5px;
+}
+
+.mekmzbg {
+	background-color: #fff;
+}
+
+
+
+
+.mpth{
+	overflow: hidden;
+	border-bottom: 10px solid #f3f3f3;
+	
+}
+.mpthnr{
+	overflow: hidden;
+	padding: 12px;
+}
+.mptysz{
+	float: left;
+}
+.mptysz img{
+	width: 80px;
+	height: 100px;
+}
+.mpthjs{
+	float: left;
+	padding-left: 15px;
+}
+.mpthjs p{
+	color: #898484;
+	padding-top: 7px;
+}
+.mpthjs h3{
+	font-weight: 700;
+}
+.mptgh {
+    padding-left: 12px;
+    padding-right: 12px;
+	padding-bottom: 5px;
+}
+.mptgh p{
+	display: inline-block;
+	line-height: 35px;
+	margin-right: 9px;
+}
+.mptgh i a{
+	float: right;
+	color: #22d369;
+	border: 1px solid #22d369;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+/*(儿科门诊科室类别样式)*/
+.mksgh{
+	font-size: 16px;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	color: #000;
+	border-bottom: 1px dotted #3e8bf0;
+	padding-left: 12px;
+    padding-top: 10px;
+}
+.mzjgh{
+	padding-left: 15px;
+	padding-top: 10px;
+}
+
+
+
+
+
+
+/*发热门诊*/
+.mmz{
+	height: 100%;
+	position: relative;
+}
+.mmz_top{
+	padding: 10px;
+	overflow: hidden;
+	position: relative;
+}
+.mmz_top_pic{
+	width: 100px;
+	height: 120px;
+	float: left;
+}
+.mmz_top_pic img{
+	width: 100%;
+	height: 100%;
+}
+.mmz_top_r{
+	width: 60%;
+	height: 120px;
+	margin-left: 10px;
+	overflow: hidden;
+	
+}
+
+.mmz_top_r p{
+	font-size: 12px;
+	color: #aaa;
+	padding-top: 3px;
+}
+.mmz_top_r p:first-child{
+	font-size: 15px;
+	color: #000;
+}
+.mysbq{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	border: 1px solid #3E8BF0;
+	color: #3E8BF0;
+	padding: 3px 5px;
+	font-size: 12px;
+	border-radius: 5px;
+}
+.mybysbq{
+	position: absolute;
+	top: 40px;
+	right: 10px;
+	border: 1px solid #5baa8a;
+	color: #5baa8a;
+	padding: 3px 5px;
+	font-size: 12px;
+	border-radius: 5px;
+}
+.mmz_rl{
+	margin-top: 10px;
+}
+.mmz_bg{
+	padding: 15px 10px;
+}
+.mmz_rlbg{
+	text-align: center;
+/*	overflow: hidden;*/
+}
+.mmz_rlbg h3{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	background-color: #3E8BF0;
+	font-weight: bold;
+	border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.mmz_rlbg ul{
+	width: 100%; 
+	display: flex;
+}
+.mmz_rlbg ul li{
+	/*width: 14%;*/
+   	/*float: left;*/
+	flex-grow:1;
+    background: #FAFAFA;
+	border-right: 1px solid #fff;
+}
+
+.mmz_rlbg ul li:last-child{
+	border-right: none !important;
+}
+
+.mmz_rlbg ul li div{
+	min-height: 40px !important;
+}
+
+.mmz_qt{
+	/*line-height: 40px;*/
+	padding: 5px;
+	border-bottom: 1px solid #fff;
+	color: #fff;
+	background-color: #C3C3C3 !important;
+}
+.mmz_bgcolor{
+	background-color: #3E8BF0 !important;
+	color: #fff;
+}
+.mysjj{
+	padding: 10px;
+	margin-top: 10px;
+}
+.mysjj_top{
+	color: #3E8BF0;
+	overflow: hidden;
+}
+.mysjj_top p{
+	width: 4%;
+	float: right;
+}
+.mysjj_top p img{
+	width: 100%;
+}
+.myyjj_detail{
+	margin-top: 10px;
+	font-size: 12px;
+}
+.myyghtk{
+	display: block;
+}
+
+.mysjj_toptk{
+	color: #3E8BF0;
+	overflow: hidden;
+}
+.mysjj_toptk p{
+	width: 4%;
+	float: right;
+}
+.mysjj_toptk p img{
+	width: 100%;
+}
+
+/*发热门诊弹出框*/
+.frmztc{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(204,204,204,0.9);
+	position: fixed;
+	top: 0;
+	display: none;
+}
+.frmztc_ul{
+	width: 90%;
+	margin: 48% auto;
+	background-color: #fff;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 10px;
+}
+.frmztc_li{
+	line-height: 44px;
+	padding-left: 5%;
+}
+
+.frmztc_li p{
+	display: inline-block;
+}
+.frmz_btn{
+	width: 90%;
+	text-align: center;
+	margin:10px auto;
+}
+.frmz_btn_lt{
+	width: 49%;
+	height: 35px;
+	line-height: 35px;
+	background-color: #f03e46;
+	border-radius: 5px;
+	color: #fff;
+}
+.frmz_btn_rt{
+	width: 49%;
+	height: 35px;
+	line-height: 35px;
+	background-color: #3E8BF0;
+	border-radius: 5px;
+	color: #fff;
+}

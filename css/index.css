@@ -1,0 +1,238 @@
+body{
+	background: #fff;
+}
+.top_1{
+	width: 100%;
+	background: url(../img/top_banner_1.png) no-repeat;
+	background-size:100% 100% ;
+	height: 180px;
+}
+.top_1 img{
+	width: 100%;
+}
+.top_logo {
+	width: 20%;
+	margin: auto;
+	padding-top: 44px;
+}
+.top_top{
+	width: 70px;
+	margin: auto;
+	padding: 20px 0 0 0px;
+}
+.top_bottom{
+	width: 60px;
+	margin: auto;
+	padding: 10px 0 0 0px;
+}
+
+/*选卡医保管理*/
+.select{
+    width: 100%;
+    margin: 0 auto;
+}
+.btn{
+	height: 40px;  
+    padding-top: 15px;
+}
+.btn li{
+	padding-top: 10px;
+	height: 40px;
+	width: 24%;
+    float: left;  
+    cursor: pointer;
+    background:#eeefef;
+    box-sizing: border-box;
+    margin: 0px 0.3% 0px 0.6%;
+    color:  #a8a8a8;
+}
+.neirong{
+	width: 100%;
+	
+}
+.neirong .juti{
+	width: 90%;
+	margin: auto;
+    display:none;
+}
+.btnyangshi_1
+{
+	padding-top: 10px;
+	height: 40px;
+	width: 24%;
+    float: left;  
+    cursor: pointer;
+    background:#eeefef;
+    box-sizing: border-box;
+    margin: 0px 0.3% 0px 0.6%;
+    color:  #a8a8a8;
+}
+.btnyangshi_2{
+	padding-top: 10px;
+	height: 40px;
+	width: 24%;
+    float: left; 
+	background: #fff !important;
+	box-shadow: 2px 2px 2px #d3ecf3;
+	border-radius:4px 4px 10px #d3ecf3 !important;
+	-moz-border-radius:4px 4px 10px #d3ecf3 !important;
+	-webkit-border-radius:4px 4px 10px #d3ecf3 !important;	
+	box-sizing: border-box;
+	border: 1px solid #d3ecf3;
+    margin: 0px 0.3% 0px 0.6%;
+    color:  #005787 !important;
+}
+.yibaoguanli{
+	width: 100%;
+	float: left;
+    margin: 20px 0 45px 0px;
+}
+.main_left{
+	width: 50%;
+	float: left;
+	margin: 0px 0px 30px 0px;
+}
+.main_left img{
+	width: 35px;
+	float: left;
+	
+}
+.main_left p{
+	float: left;
+	margin: 6px 0 0 20px;
+	color: #005787;
+}
+.yibaoguanli li:nth-child(odd){
+	width: 100%;
+}
+.yibaoguanli li:nth-child(even){
+	width: 49%;
+}
+
+/*定点医院*/
+.wukong{
+	width: 100% !important;
+	margin: auto;
+}
+.dingdianyiyuan{
+	margin-bottom: 66px;
+}
+.dingdianyaodian{
+	margin-bottom: 64px !important;
+}
+.designated_search{
+	width: 90%;
+	height: 30px;
+	margin: 22px auto;
+	/*position: relative;*/
+	
+}
+.search_bottom{
+	margin-bottom: 0;
+}
+.search_inp{
+	width: 76%;
+	background-color: #FFFFFF;
+	overflow: hidden;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	float: left;
+}
+.sea_width{
+	width: 80% !important;
+}
+.magnifier{
+	height: 18px;
+	width: 18px;
+	float: left;
+	padding: 5px
+}
+
+
+.dengji{
+	font-size: 12px;
+	color:#005787;
+	display: block;
+	text-align: left;
+}
+.daxiao h4{
+	padding: 0px 0px 6px 0px;
+}
+.daxiao .p_1{
+	font-size: 12px;
+	color: #ccc;
+
+	
+}
+.daxiao .p_2{
+	font-size: 12px;
+	color: #ccc;
+	
+	display: inline-block;
+	width: 60px;
+}
+/*定点医院里的新闻*/
+.news-margin{
+	border-bottom: 1px solid #eee;
+	margin: 0px;
+}
+
+.news-li-bg{
+	background-color: #FFFFFF;
+	margin-left: 0 !important;
+	padding-left: 10px;
+}
+
+.news-li-bg a{
+	width: 100%;
+	color: #000000;
+	display: block;
+}
+
+.news-bg{
+	background-color: #efeff4 !important;
+}
+
+.news_ul_margin{
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+.news_size{
+	font-size: 16px !important;
+}
+.news_list_bg{
+	background-color: #efeff4;
+}
+
+.news-li-bg{
+	background-color: #fff;;
+	margin-left: 0 !important;
+	padding-left: 10px;
+}
+
+.news_avatar{
+	width: 100px !important;
+	height: 80px;
+	-webkit-border-radius: 0 !important;
+	float: left;
+}
+.mnews_top{
+	padding-top: 12px;
+}
+.news_avatar > span{
+	-webkit-border-radius: 0 !important;
+}
+.news_bottom{
+	margin-bottom: 40px;
+}
+.text_center{
+	text-align: left;
+}
+.ke{
+	padding-top:6px ;
+}
+
+
+
+
